@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+#panel::-webkit-scrollbar {
+     display: none;
+}
+
+#plate::-webkit-scrollbar {
+     display: none;
+}
+
+.playTitle::-webkit-scrollbar {
+     display: none;
+}
+
+.juunOppa::-webkit-scrollbar {
+     display: none;
+}
+
+.eddie::-webkit-scrollbar {
+     display: none;
+}
+
+.songCard {
+     clip-path: polygon(28% 0, 100% 0, 100% 20%, 100% 74%, 73% 100%, 20% 100%, 0 100%, 0 27%);
+}
+
+.userSong {
+     clip-path: polygon(28% 0, 100% 0, 100% 20%, 100% 74%, 73% 100%, 20% 100%, 0 100%, 0 27%);
+}
+
+#relate::-webkit-scrollbar {
+     display: none;
+}
+
+.drp::-webkit-scrollbar {
+     display: none;
+}
