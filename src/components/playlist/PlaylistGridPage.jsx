@@ -36,7 +36,7 @@ const PlaylistGridPage = (props) => {
                                                     props.setActivePage("songs")
                                                 }} className='flex justify-between items-center w-full p-2'>
 
-                                                    <div className='h-12 w-3/5 flex flex-col items-center justify-center gap-2 border-r-2 pr-2 border-gray-600'>
+                                                    <div className='h-12 w-3/5 flex flex-col items-start justify-center gap-2 border-r-2 pr-2 border-gray-600'>
                                                         <h4 className='text-sm tracking-widest font-mono font-bold'>{playlist.title.toUpperCase()}</h4>
                                                         <p className='text-xs text-orange-400'>{playlist.songs.length}<span className='text-gray-400'> Tracks</span></p>
                                                     </div>
